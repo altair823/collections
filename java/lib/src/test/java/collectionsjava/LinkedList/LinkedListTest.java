@@ -15,5 +15,7 @@ public class LinkedListTest {
         assertEquals(list.get(0), 1);
         assertEquals(list.get(1), 2);
         assertEquals(list.get(2), 3);
+        list.add(1, 4);
+        assertEquals(list.get(1), 4);
     }
 }

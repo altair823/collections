@@ -39,6 +39,7 @@ public class LinkedList<T> implements List<T> {
             node.getPrev().setNext(newNode);
             node.setPrev(newNode);
         }
+        length++;
     }
 
     @Override
